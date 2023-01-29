@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+  <!-- Css Files -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/text.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Web Brand -->
+  <link rel="icon" href="images/logo.png" />
+  <title>Creative Digital Agency</title>
+</head>
+
+<body onload="load()">
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="peirant-circle">
+      <div class="circle one"></div>
+      <div class="circle two"></div>
+      <div class="circle three"></div>
+    </div>
+  </div>
+
+  <!-- Website Body -->
+  <div class="body website w-100" id="body">
+    <!-- Start Navbar Section -->
+    <nav class="navbar p-0 fixed-top">
+      <div class="h-100 container">
+        <div class="logo">
+          <a class="navbar-brand p-0 m-0" href="#">
+            <img src="images/logo.png" alt="img" class="w-100" />
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-button h-100 d-flex justify-content-center">
+          <button class="h-100 px-3 button-control">Work</button>
+          <button class="h-100 px-3 button-control">About</button>
+          <button class="h-100 px-3 button-control">Blog</button>
+          <button class="h-100 px-3 button-control">Contact</button>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <div class="bar-img">
+              <img src="images/logo.png" alt="img" class="w-100" />
+            </div>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="#">Work</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar Secton -->
+
+    <!-- Start Main Section -->
+    <section class="main container d-flex justify-content-between align-items-center">
+      <div class="title col-12 col-sm-6">
+        <h1>
+          Hello!!! <br />
+          We Are Creative <br />
+          Digital Agency.
+        </h1>
+        <p class="my-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          nobis, possimus unde odit harum molestiae, accusamus illum
+          molestias.
+        </p>
+        <button class="button-yellow">Send Message</button>
+      </div>
+      <div class="landing">
+        <img src="images/landing.png" alt="img" class="w-100 h-100" />
+      </div>
+    </section>
+    <!-- End Main Section -->
+
+    <!-- Start Work Section -->
+    <section class="work container">
+      <h1>WORK SHOWCASE.</h1>
+      <div class="d-flex justify-content-between align-items-center my-3">
+        <div class="d-flex">
+          <button class="button-yellow more d-flex align-items-center">
+            ALL
+            <i class="fa-solid fa-chevron-down mx-2 d-none"></i>
+          </button>
+          <div class="hide-btn">
+            <button class="button-yellow more">BRANDING</button>
+            <button class="button-yellow more">ILLUSTRATION</button>
+            <button class="button-yellow more">WEB</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="row align-items-center mb-5">
+          <div class="col-9 mx-auto col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="project">
+              <img src="images/video-1.jpg" alt="img" class="col-12" />
+              <div class="project-details d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-up-right-from-square p-3 mx-2"></i>
+                <i class="fa-regular fa-envelope p-3 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-9 mx-auto col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="project">
+              <img src="images/video-2.jpg" alt="img" class="col-12" />
+              <div class="project-details d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-up-right-from-square p-3 mx-2"></i>
+                <i class="fa-regular fa-envelope p-3 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-9 mx-auto col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="project">
+              <img src="images/video-3.png" alt="img" class="col-12" />
+              <div class="project-details d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-up-right-from-square p-3 mx-2"></i>
+                <i class="fa-regular fa-envelope p-3 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-9 mx-auto col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="project">
+              <img src="images/video-4.jpg" alt="img" class="col-12" />
+              <div class="project-details d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-up-right-from-square p-3 mx-2"></i>
+                <i class="fa-regular fa-envelope p-3 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-9 mx-auto col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="project">
+              <img src="images/video-5.jpg" alt="img" class="col-12" />
+              <div class="project-details d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-up-right-from-square p-3 mx-2"></i>
+                <i class="fa-regular fa-envelope p-3 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-9 mx-auto col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="project">
+              <img src="images/video-6.png" alt="img" class="col-12" />
+              <div class="project-details d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-up-right-from-square p-3 mx-2"></i>
+                <i class="fa-regular fa-envelope p-3 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-9 mx-auto col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="project">
+              <img src="images/development-3.png" alt="img" class="col-12" />
+              <div class="project-details d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-up-right-from-square p-3 mx-2"></i>
+                <i class="fa-regular fa-envelope p-3 mx-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mx-auto text-center">
+          <button class="button-yellow px-5">Show More</button>
+        </div>
+      </div>
+    </section>
+    <!-- End Work Section -->
+
+    <!-- Start Image Section -->
+    <section class="container py-5 my-5">
+      <div class="d-flex justify-content-center align-items-center flex-wrap">
+        <div class="img-docto my-3 mx-4">
+          <div class="w-100 h-100">
+            <img src="images/dacota.png" alt="img" class="w-100 h-100" />
+          </div>
+        </div>
+        <div class="img-docto my-3 mx-4">
+          <div class="w-100 h-100">
+            <img src="images/bakery.png" alt="img" class="w-100 h-100" />
+          </div>
+        </div>
+        <div class="img-docto my-3 mx-4">
+          <div class="w-100 h-100">
+            <img src="images/Dakota barron.png" alt="img" class="w-100 h-100" />
+          </div>
+        </div>
+        <div class="img-docto my-3 mx-4">
+          <div class="w-100 h-100">
+            <img src="images/gats.png" alt="img" class="w-100 h-100" />
+          </div>
+        </div>
+        <div class="img-docto my-3 mx-4">
+          <div class="w-100 h-100">
+            <img src="images/gats_57.png" alt="img" class="w-100 h-100" />
+          </div>
+        </div>
+        <div class="img-docto my-3 mx-4">
+          <div class="w-100 h-100">
+            <img src="images/Vintage.png" alt="img" class="w-100 h-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Image Section -->
+
+    <!-- Start About Section -->
+    <section class="container my-5">
+      <h1>About Us.</h1>
+      <div class="about d-flex justify-content-between align-items-center mt-4">
+        <div class="about-imgs d-flex justify-content-between">
+          <div class="img-div position-relative">
+            <img src="images/about-us.jpg" alt="img" class="w-100 h-100" />
+            <div class="desc position-absolute px-3 pt-2">
+              <p>Luke Skywalker</p>
+              <span>Web Designer</span>
+            </div>
+          </div>
+          <div class="img-div position-relative">
+            <img src="images/about-us-2.jpg" alt="img" class="w-100 h-100" />
+            <div class="desc position-absolute px-3 pt-2">
+              <p>Luke Skywalker</p>
+              <span>Web Designer</span>
+            </div>
+          </div>
+        </div>
+        <div class="little-about">
+          <h5 class="mb-3">Little About Us</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            eveniet accusamus aliquid rem dolor officia dignissimos similique,
+            distinctio laborum, neque sint molestiae minus totam porro id a
+            doloribus quis voluptatum? Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Magni fuga iure, illum corrupti maxime magnam
+            ratione vel fugit?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Blog Section -->
+    <section class="container my-5">
+      <div>
+        <h1 class="mb-3">Our Blog</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          optio fuga quibusdam recusandae dolorum provident dolores facere
+          ipsa eligendi et quidem adipisci voluptatibus animi, repellendus
+          culpa, exercitationem enim ab inventore?
+        </p>
+        <div class="row mt-4 justify-content-center">
+          <div class="col-8 col-md-4 col-sm-8 my-3">
+            <div class="col-12 mb-3 height">
+              <img src="images/our-blog-1.jpg" alt="img" class="w-100 h-100" />
+            </div>
+            <div>
+              <h4>Super Blog Article!</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Itaque sit, sequi adipisci aspernatur impedit sint possimus non.
+              </p>
+              <span>20 May 2020</span>
+            </div>
+          </div>
+          <div class="col-8 col-md-4 col-sm-8 my-3">
+            <div class="col-12 mb-3 height">
+              <img src="images/our-blog-2.jpg" alt="img" class="w-100 h-100" />
+            </div>
+            <div>
+              <h4>Super Blog Article!</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Itaque sit, sequi adipisci aspernatur impedit sint possimus non.
+              </p>
+              <span>20 May 2020</span>
+            </div>
+          </div>
+          <div class="col-8 col-md-4 col-sm-8 my-3">
+            <div class="col-12 mb-3 height">
+              <img src="images/our-blog-3.jpg" alt="img" class="w-100 h-100" />
+            </div>
+            <div>
+              <h4>Super Blog Article!</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Itaque sit, sequi adipisci aspernatur impedit sint possimus non.
+              </p>
+              <span>20 May 2020</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blog Section -->
+
+    <!-- Start Contact Us Section -->
+    <section class="container">
+      <div>
+        <h1>Contact Us.</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate repellendus 
+          voluptatum alias itaque hic, deserunt dolore ea pariatur error soluta aut tempore 
+          eligendi adipisci consectetur id iure nisi iusto ratione.
+        </p>
+        <h4>Send Us Message.</h4>
+        <div class="form-pairant row justify-content-between align-items-center mt-4">
+          <div class="col-md-5 col-11">
+            <form>
+              <div class="form-outline mb-4">
+                <input type="text" id="form4Example1" class="form-control" />
+                <label class="form-label" for="form4Example1">Name</label>
+              </div>
+              <div class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control" />
+                <label class="form-label" for="form4Example2">Email address</label>
+              </div>
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                <label class="form-label" for="form4Example3">Message</label>
+              </div>
+              <button type="submit" class="button-yellow mb-4">Send Message</button>
+            </form>
+          </div>
+          <div class="form-img col-4">
+            <div class="col-12 height">
+              <img src="images/contact-us.jpg" alt="img" class="w-100 h-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Us Section -->
+
+    <!-- Start Social Media -->
+    <section class="container mt-5 py-5 d-flex justify-content-center">
+      <div class="social">
+        <ul class="position-relative d-flex">
+          <li class="position-relative">
+            <a href="##" class="text-decoration-none">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li class="position-relative">
+            <a href="##" class="text-decoration-none">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li class="position-relative">
+            <a href="##" class="text-decoration-none">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Social Media -->
+
+    <!-- Start Footer Section -->
+    <footer class="m-0 p-0">
+      <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="footer-img">
+          <img src="images/logo.png" alt="img" class="w-100">
+        </div>
+        <p class="my-3 mx-4">© 2020 - Mint, All Rights Reserved</p>
+      </div>
+    </footer>
+<!-- Start Footer Section -->
+  </div>
+
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+  <!-- Js Files -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
